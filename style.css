@@ -6,7 +6,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
 
 input{
@@ -18,6 +17,12 @@ input{
     border-radius: 25%;
 }
 
+.main{
+    background-color: #becccf;
+    padding: 15px;
+    border-radius: 15%;
+}
+
 .text{
     width: 160px;
     height: 26px;
@@ -25,6 +30,7 @@ input{
     letter-spacing: 5px;
     text-align: center;
     margin-bottom: 12px;
+    color: black;
 }
 
 .text1{
@@ -50,4 +56,18 @@ input{
 .maincolor{
     background-color: black;
 
+}
+
+.maincolor:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.other{
+    background-color: #0c1d54;
+}
+
+.other:hover{
+    background-color: #455176;
+    transition: 0.5s;
 }
